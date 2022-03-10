@@ -21,3 +21,9 @@ gosha256 <<filename>>
 3. Limited error handling, no beautification.
 4. Documentation is very, very poor.
 
+## Licenses
+
+| Software/Package        | License                |
+|-------------------------|------------------------|
+| urfave CLI package      | MIT                    |
+| GO programming language | https://go.dev/LICENSE |

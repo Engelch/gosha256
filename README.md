@@ -8,3 +8,16 @@ It is kept in a repository to easily do a retest if required.
 
 Currently, March 2022, the compiled binary outputs the same string as the stanard CLI commands.
 
+## Synopsis
+
+``
+gosha256 <<filename>>
+``
+
+## Limitations
+
+1. The application reads the complete file into a buffer. No protection exists against buffer overflows.
+2. No usage handling.
+3. Limited error handling, no beautification.
+4. Documentation is very, very poor.
+

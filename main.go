@@ -5,11 +5,12 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/urfave/cli/v2"
 	"os"
+
+	"github.com/urfave/cli/v2"
 )
 
-const appVersion = "0.0.2"
+const appVersion = "0.1.0"
 const appName = "gosha256"
 
 // commandLineOptions just separates the definition of command line options ==> creating a shorter main
@@ -54,6 +55,12 @@ func main() {
 		sha256_hash := hex.EncodeToString(h.Sum(nil))
 
 		fmt.Println("SHA256 is:", sha256_hash)
+		h.Reset()
+		h.Write(dat)
+		sha256_hash = hex.EncodeToString(h.Sum(nil))
+		fmt.Println("SHA256 after RESET is:", sha256_hash)
+		h.Reset()
+		fmt.Printf("SHA256 without Write() is: %x\n", sha256.Sum256(dat))
 		return nil
 	}
 

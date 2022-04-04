@@ -3,6 +3,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.1 h1:r/myEWzV9lfsM1tFLgDyu0atFtJ1fXn261LKY
 github.com/cpuguy83/go-md2man/v2 v2.0.1/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/engelch/go_libs/v2 v2.6.0 h1:Bb+/6HZ8Lcpds6MUEhw00ynoO9xIcDAMvInA1haqktk=
 github.com/engelch/go_libs/v2 v2.6.0/go.mod h1:rc3zx9KX9OOynSMZQSrsJrSztxKDXwTW1/W9hHXkUx4=
+github.com/engelch/go_libs/v2 v2.8.0 h1:lMgjnoMH5DnvKgOSEevBwoBjm4vw+OLbAPntyZaSujY=
+github.com/engelch/go_libs/v2 v2.8.0/go.mod h1:rc3zx9KX9OOynSMZQSrsJrSztxKDXwTW1/W9hHXkUx4=
 github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/urfave/cli/v2 v2.4.0 h1:m2pxjjDFgDxSPtO8WSdbndj17Wu2y8vOT86wE/tjr+I=
